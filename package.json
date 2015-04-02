@@ -1,7 +1,6 @@
 {
   "name": "100DayProject",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +16,11 @@
   },
   "homepage": "https://github.com/jrdnndtsch/100DayProject",
   "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-sass": "^1.3.3"
+  },
+  "dependencies": {
+    "gulp": "^3.8.11",
     "gulp-sass": "^1.3.3"
   }
 }

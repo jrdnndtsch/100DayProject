@@ -130,3 +130,49 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+body {
+  font-size: 10px; }
+  body a {
+    text-decoration: none;
+    color: #333; }
+    body a:hover {
+      color: lime; }
+  body img {
+    max-width: 100%;
+    height: auto; }
+
+.main .container {
+  max-width: 80%;
+  margin: 0 auto; }
+
+header .container {
+  text-align: center; }
+
+.post {
+  margin: 50px 0; }
+  .post h2 {
+    font-family: 'Amatic SC', monospace;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin: 20px 0; }
+  .post p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    font-weight: 300; }
+
+.entry-content .featImg {
+  width: 35%;
+  float: left; }
+.entry-content .featCopy {
+  width: 63%;
+  float: left;
+  margin-left: 2%; }
+  .entry-content .featCopy .readMore {
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    font-family: 'Amatic', monospace;
+    border: 1px solid #333;
+    padding: 10px 20px 12px 20px;
+    margin: 10px 0; }

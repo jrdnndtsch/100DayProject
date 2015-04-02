@@ -11,8 +11,9 @@ function theme_setup() {
 	*  a square size (also below). You can add more of your own crop
 	*  sizes with add_image_size. */
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size(120, 90, true);
+	set_post_thumbnail_size(200, 200, true);
 	add_image_size('square', 150, 150, true);
+	add_image_size('bigSquare', 500, 500, true);
 
 
 	// Add default posts and comments RSS feed links to head

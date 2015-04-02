@@ -4,4 +4,77 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
- 
+
+@mixin title-font{
+	font-family: 'Amatic SC', monospace;
+	font-size: 3rem;
+	letter-spacing: 2px;
+} 
+
+@mixin body-font{
+font-family: 'Merriweather', serif;
+font-size: 1.5rem;
+letter-spacing: 1.2px;
+font-weight: 300;
+}
+
+body{
+	font-size: 10px;
+	a{
+		text-decoration: none;
+		color: #333;
+		&:hover{
+			color: lime;
+		}
+	}
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+ .main{
+
+ 	.container{
+ 		max-width: 80%;
+ 		margin: 0 auto;
+ 	}
+ }
+
+ header{
+ 	.container{
+ 		text-align: center;
+ 	}
+ }
+
+ .post{
+ 	margin: 50px 0;
+ 	h2{
+ 		@include title-font;
+ 		margin: 20px 0;
+ 	}
+ 	p{
+ 		@include body-font;
+ 	}
+ }
+
+ .entry-content{
+ 	.featImg{
+ 		width: 35%;
+ 		float: left;
+ 	}
+ 	.featCopy{
+		width: 63%;
+		float: left;
+		margin-left: 2%;
+		.readMore{
+			font-size: 28px;
+			letter-spacing: 1.5px;
+			font-family: 'Amatic', monospace;
+			border: 1px solid #333;
+			padding: 10px 20px 12px 20px;
+			margin: 10px 0;
+		}
+ 	}
+ }
+
