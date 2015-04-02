@@ -48,8 +48,18 @@ body{
  	}
  }
 
+ footer{
+ 	.container{
+ 		max-width: 80%;
+ 		margin: 0 auto;
+ 	}
+ }
+
  .post{
  	margin: 50px 0;
+ 	h1{
+ 		@include title-font;
+ 	}
  	h2{
  		@include title-font;
  		margin: 20px 0; 
@@ -71,9 +81,7 @@ body{
 		.readMore{
 			font-size: 1rem;
 			letter-spacing: 1.5px;
-			font-family: 'Amatic', monospace;
-			border: 1px solid #333;
-			padding: 10px 20px 12px 20px;
+			font-family:'Merriweather' monospace;
 			margin: 10px 0;
 		}
  	}

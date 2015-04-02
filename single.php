@@ -10,7 +10,10 @@
           <h1 class="entry-title"><?php the_title(); ?></h1>
 
           <div class="entry-meta">
-            <?php hackeryou_posted_on(); ?>
+            <?php 
+            echo esc_attr();
+            echo get_the_date(); 
+            ?>
           </div><!-- .entry-meta -->
 
           <div class="entry-content">

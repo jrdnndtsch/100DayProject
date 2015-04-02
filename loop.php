@@ -29,7 +29,7 @@
 				        </a>
 				      </h2>
 					<p><?php echo the_field('short_desc') ?></p>
-					<a href="<?php echo get_permalink(); ?>" class="readMore">read more</a>
+					<a href="<?php echo get_permalink(); ?>" class="readMore">read more &#8702</a>
 				</div> <!-- end .featCopy -->
 				
 				<?php //the_content('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
