@@ -21,7 +21,7 @@
   <div class="container">
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-        <?php bloginfo( 'name' ); ?>
+        <img src="<?php echo get_bloginfo('template_directory');?>/images/logo_con1.svg" alt="">
       </a>
     </h1>
   </div> <!-- /.container -->
