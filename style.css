@@ -137,7 +137,7 @@ body {
     text-decoration: none;
     color: #333; }
     body a:hover {
-      color: lime; }
+      color: hotpink; }
   body img {
     max-width: 100%;
     height: auto; }
@@ -155,6 +155,7 @@ header .container {
     font-family: 'Amatic SC', monospace;
     font-size: 3rem;
     letter-spacing: 2px;
+    font-weight: normal;
     margin: 20px 0; }
   .post p {
     font-family: 'Merriweather', serif;

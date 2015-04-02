@@ -9,6 +9,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	font-family: 'Amatic SC', monospace;
 	font-size: 3rem;
 	letter-spacing: 2px;
+	font-weight: normal;
 } 
 
 @mixin body-font{
@@ -51,7 +52,7 @@ body{
  	margin: 50px 0;
  	h2{
  		@include title-font;
- 		margin: 20px 0;
+ 		margin: 20px 0; 
  	}
  	p{
  		@include body-font;
