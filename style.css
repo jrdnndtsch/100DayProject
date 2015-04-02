@@ -163,8 +163,17 @@ header a {
 header a:hover {
   color: deepskyblue; }
 
+footer .container {
+  max-width: 80%;
+  margin: 0 auto; }
+
 .post {
   margin: 50px 0; }
+  .post h1 {
+    font-family: 'Amatic SC', monospace;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-weight: normal; }
   .post h2 {
     font-family: 'Amatic SC', monospace;
     font-size: 3.5rem;
@@ -187,7 +196,5 @@ header a:hover {
   .entry-content .featCopy .readMore {
     font-size: 1rem;
     letter-spacing: 1.5px;
-    font-family: 'Amatic', monospace;
-    border: 1px solid #333;
-    padding: 10px 20px 12px 20px;
+    font-family: 'Merriweather' monospace;
     margin: 10px 0; }
