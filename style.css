@@ -153,7 +153,7 @@ header .container {
   margin: 50px 0; }
   .post h2 {
     font-family: 'Amatic SC', monospace;
-    font-size: 3rem;
+    font-size: 3.5rem;
     letter-spacing: 2px;
     font-weight: normal;
     margin: 20px 0; }
@@ -171,7 +171,7 @@ header .container {
   float: left;
   margin-left: 2%; }
   .entry-content .featCopy .readMore {
-    font-size: 28px;
+    font-size: 1rem;
     letter-spacing: 1.5px;
     font-family: 'Amatic', monospace;
     border: 1px solid #333;

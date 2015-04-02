@@ -7,7 +7,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 @mixin title-font{
 	font-family: 'Amatic SC', monospace;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	letter-spacing: 2px;
 	font-weight: normal;
 } 
@@ -69,7 +69,7 @@ body{
 		float: left;
 		margin-left: 2%;
 		.readMore{
-			font-size: 28px;
+			font-size: 1rem;
 			letter-spacing: 1.5px;
 			font-family: 'Amatic', monospace;
 			border: 1px solid #333;

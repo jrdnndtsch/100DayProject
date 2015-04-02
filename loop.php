@@ -17,17 +17,17 @@
 <?php while ( have_posts() ) : the_post(); ?>
 
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-			<h2 class="entry-title">
-        <a href="<?php the_permalink(); ?>" title="Permalink to: <?php esc_attr(the_title_attribute()); ?>" rel="bookmark">
-          <?php the_title(); ?>
-        </a>
-      </h2>
 
 			<section class="entry-content clearfix">
 				<div class="featImg">
 					<?php echo get_the_post_thumbnail($post_id, 'bigSquare'); ?>
 				</div> <!-- end .featImg -->
 				<div class="featCopy">	
+							<h2 class="entry-title">
+				        <a href="<?php the_permalink(); ?>" title="Permalink to: <?php esc_attr(the_title_attribute()); ?>" rel="bookmark">
+				          <?php the_title(); ?>
+				        </a>
+				      </h2>
 					<p><?php echo the_field('short_desc') ?></p>
 					<a href="<?php echo get_permalink(); ?>" class="readMore">read more</a>
 				</div> <!-- end .featCopy -->
