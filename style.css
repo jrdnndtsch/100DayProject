@@ -148,6 +148,20 @@ body {
 
 header .container {
   text-align: center; }
+header .headerImg {
+  width: 50%;
+  height: auto; }
+header p {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-family: 'Amatic SC';
+  margin: 0;
+  color: #AAA;
+  letter-spacing: 0.1rem; }
+header a {
+  color: pink; }
+header a:hover {
+  color: deepskyblue; }
 
 .post {
   margin: 50px 0; }

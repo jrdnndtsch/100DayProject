@@ -23,7 +23,7 @@
 					<?php echo get_the_post_thumbnail($post_id, 'bigSquare'); ?>
 				</div> <!-- end .featImg -->
 				<div class="featCopy">	
-							<h2 class="entry-title">
+						<h2 class="entry-title">
 				        <a href="<?php the_permalink(); ?>" title="Permalink to: <?php esc_attr(the_title_attribute()); ?>" rel="bookmark">
 				          <?php the_title(); ?>
 				        </a>
@@ -32,7 +32,6 @@
 					<a href="<?php echo get_permalink(); ?>" class="readMore">read more</a>
 				</div> <!-- end .featCopy -->
 				
-				<?php //the_content('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
 				<?php wp_link_pages( array(
           'before' => '<div class="page-link"> Pages:',
           'after' => '</div>'

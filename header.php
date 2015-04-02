@@ -19,11 +19,11 @@
 
 <header>
   <div class="container">
-    <h1>
-      <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-        <img src="<?php echo get_bloginfo('template_directory');?>/images/logo_con1.svg" alt="">
-      </a>
-    </h1>
+    <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
+      <img class="headerImg" src="<?php echo get_bloginfo('template_directory');?>/images/logo_con1.svg" alt="">
+    </a>
+    <p>a project crafted &amp; curated by jordan deutsch &amp; vivien ilett</p>
+    <p>inspired by <a href="https://thegreatdiscontent.com/100days">the great discontent / 100 days</a></p>
   </div> <!-- /.container -->
 </header><!--/.header-->
 

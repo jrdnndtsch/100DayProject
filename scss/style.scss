@@ -46,6 +46,24 @@ body{
  	.container{
  		text-align: center;
  	}
+ 	.headerImg {
+ 		width: 50%;
+ 		height: auto;
+ 	}
+ 	p {
+ 		font-size: 1.3rem;
+ 		text-transform: uppercase;
+ 		font-family: 'Amatic SC';
+ 		margin: 0;
+ 		color: #AAA;
+ 		letter-spacing: 0.1rem;
+ 	}
+ 	a {
+ 		color: pink;
+ 	}
+	a:hover {
+		color: deepskyblue;
+	}
  }
 
  .post{
