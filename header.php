@@ -20,29 +20,11 @@
 <header>
   <div class="container">
     <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
+
       <svg class="headerImg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 520 240" style="enable-background:new 0 0 520 240;" xml:space="preserve">
-      <style type="text/css">
-      <![CDATA[
-        .st0{fill:#7F8EFF;}
-        .st1{fill:#E583D0;}
-        .st2{fill:#E97B00;}
-        .st3{fill:#4F4F4F;}
-        .st4{fill:#ED96D7;}
-        .st5{fill:#54FFCD;}
-        .st6{fill:#BFBFBF;}
-        .st7{fill:#F789D5;}
-        .st8{fill:#FCC3EA;}
-        .st9{fill:none;stroke:#000000;stroke-miterlimit:10;}
-        .st10{fill:#FFC96A;}
-        .st11{fill:#FFCFEE;}
-        .st12{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
-        .st13{fill:none;}
-        .st14{fill:#6AF8FF;}
-        .st15{fill:#3F7FEF;}
-        .st16{fill:#A5A5A5;}
-        .st17{fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
-      ]]>
-      </style>
+      <svg class="headerImg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 520 240" style="enable-background:new 0 0 520 240;" xml:space="preserve">
+
       <g>
         <g>
           <path class="st4" d="M103,203.8h5.1c2.3,0,4.7,0.5,4.7,3.4c0,3-2.7,3.4-4.7,3.4H90.8c-2,0-4.7-0.4-4.7-3.4c0-2.9,2.4-3.4,4.7-3.4
