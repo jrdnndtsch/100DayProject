@@ -1,3 +1,4 @@
+// logo parts //
 .headerImg{	
 	.st0{fill:#7F8EFF;}
 	.st1{fill:#E583D0;}
@@ -17,22 +18,30 @@
 	.st15{fill:#3F7FEF;}
 	.st16{fill:#A5A5A5;}
 	.st17{fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+
+	// logo on hover //
 	&:hover{
-		.st0{
-			animation: colorPulse .5s linear infinite;
-			-webkit-animation: colorPulse .5s linear infinite;
+		.internet2 {
+			animation: rainbow 2s step-end infinite;
+			-webkit-animation: rainbow 2s step-end infinite;
 		}
 	}
 }
 
-@keyframes colorPulse{
-	from {fill: red};
-	to{fill:blue};
+// animate 100 // 
+@keyframes rainbow {
+	0%   { fill: purple;}
+	25%  { fill: orange; }
+	50%  { fill: yellow;}
+	75%  { fill: hotpink;}
+	100%  { fill: deepskyblue;}
 }
 
-
-@-webkit-keyframes colorPulse{
-	from{fill: red};
-	to{fill:blue};
+@-webkit-keyframes rainbow {
+	0%   { fill: purple; }
+	25%  { fill: orange; }
+	50%  { fill: yellow; }
+	75%  { fill: hotpink;}
+	100%  { fill: deepskyblue; }
 }
 

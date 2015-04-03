@@ -175,23 +175,41 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   stroke: #000000;
   stroke-width: 0.25;
   stroke-miterlimit: 10; }
-.headerImg:hover .st0 {
-  animation: colorPulse .5s linear infinite;
-  -webkit-animation: colorPulse .5s linear infinite; }
+.headerImg:hover .internet2 {
+  animation: rainbow 2s step-end infinite;
+  -webkit-animation: rainbow 2s step-end infinite; }
 
-@keyframes colorPulse {
-  from {
-    fill: red; }
+@keyframes rainbow {
+  0% {
+    fill: purple; }
 
-  to {
-    fill: blue; } }
+  25% {
+    fill: orange; }
 
-@-webkit-keyframes colorPulse {
-  from {
-    fill: red; }
+  50% {
+    fill: yellow; }
 
-  to {
-    fill: blue; } }
+  75% {
+    fill: hotpink; }
+
+  100% {
+    fill: deepskyblue; } }
+
+@-webkit-keyframes rainbow {
+  0% {
+    fill: purple; }
+
+  25% {
+    fill: orange; }
+
+  50% {
+    fill: yellow; }
+
+  75% {
+    fill: hotpink; }
+
+  100% {
+    fill: deepskyblue; } }
 
 body {
   font-size: 10px; }
