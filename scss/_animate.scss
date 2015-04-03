@@ -18,30 +18,161 @@
 	.st15{fill:#3F7FEF;}
 	.st16{fill:#A5A5A5;}
 	.st17{fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.internet{fill:#54FFCD;}
+	.internet2{fill:#F789D5;}
+	.day{fill:#7F8EFF;}
+	.bracket{fill:#BFBFBF;}
 
 	// logo on hover //
 	&:hover{
-		.internet2 {
+		.st11, .st15 {
 			animation: rainbow 2s step-end infinite;
 			-webkit-animation: rainbow 2s step-end infinite;
+		}
+
+		.st4, .st1 {
+			animation: rainbow2 2s step-end infinite;
+			-webkit-animation: rainbow2 2s step-end infinite;
+		}
+
+		.st2 {
+			animation: rainbow3 2s step-end infinite;
+			-webkit-animation: rainbow3 2s step-end infinite;	
+		}
+
+		.st0 {
+			animation: rainbow4 2s step-start infinite;
+			-webkit-animation: rainbow4 2s step-start infinite;		
+		}
+
+		.st14 {
+			animation: rainbow5 2s step-end infinite;
+			-webkit-animation: rainbow5 2s step-end infinite;		
+		}
+
+		.st10 {
+			animation: rainbow6 2s step-end infinite;
+			-webkit-animation: rainbow6 2s step-end infinite;
+		}
+
+		.st5 {
+			animation: rainbow7 2s step-end infinite;
+			-webkit-animation: rainbow7 2s step-end infinite;			
 		}
 	}
 }
 
 // animate 100 // 
 @keyframes rainbow {
-	0%   { fill: purple;}
-	25%  { fill: orange; }
-	50%  { fill: yellow;}
-	75%  { fill: hotpink;}
-	100%  { fill: deepskyblue;}
+	0%   { fill: #54FFCD;}
+	25%  { fill: #F789D5;}
+	50%  { fill: lemonchiffon;}
+	75%  { fill: #FFCFEE;}
+	100%  { fill: #7F8EFF;}
 }
 
 @-webkit-keyframes rainbow {
-	0%   { fill: purple; }
-	25%  { fill: orange; }
-	50%  { fill: yellow; }
-	75%  { fill: hotpink;}
-	100%  { fill: deepskyblue; }
+	0%   { fill: #54FFCD;}
+	25%  { fill: #F789D5;}
+	50%  { fill: lemonchiffon;}
+	75%  { fill: #FFCFEE;}
+	100%  { fill: #7F8EFF;}
 }
+
+@keyframes rainbow2 {
+	0%   { fill: #E97B00;}
+	25%  { fill: purple;}
+	50%  { fill: slateblue;}
+	75%  { fill: #FFC96A;}
+	100%  { fill: #E583D0;}
+}
+
+@-webkit-keyframes rainbow2 {
+	0%   { fill: #E97B00;}
+	25%  { fill: purple;}
+	50%  { fill: slateblue;}
+	75%  { fill: #FFC96A;}
+	100%  { fill: #E583D0;}
+}
+
+@keyframes rainbow3 {
+	0%   { fill: #3F7FEF;}
+	25%  { fill: #54FFCD;}
+	50%  { fill: #E583D0;}
+	75%  { fill: papayawhip;}
+	100%  { fill: #7F8EFF;}
+}
+
+@-webkit-keyframes rainbow3 {
+	0%   { fill: #3F7FEF;}
+	25%  { fill: #54FFCD;}
+	50%  { fill: #E583D0;}
+	75%  { fill: papayawhip;}
+	100%  { fill: #7F8EFF;}
+}
+
+@keyframes rainbow4 {
+	0%   { fill: #E97B00;}
+	25%  { fill: #FFCFEE;}
+	50%  { fill: hotpink;}
+	75%  { fill: cyan;}
+	100%  { fill: #54FFCD;}
+}
+
+@-webkit-keyframes rainbow4 {
+	0%   { fill: #E97B00;}
+	25%  { fill: #FFCFEE;}
+	50%  { fill: hotpink;}
+	75%  { fill: cyan;}
+	100%  { fill: #54FFCD;}
+}
+
+@keyframes rainbow5 {
+	0%   { fill: mediumorchid;}
+	25%  { fill: coral;}
+	50%  { fill: #3F7FEF;}
+	75%  { fill: mistyrose;}
+	100%  { fill: limegreen;}
+}
+
+@-webkit-keyframes rainbow5 {
+	0%   { fill: mediumorchid;}
+	25%  { fill: coral;}
+	50%  { fill: #3F7FEF;}
+	75%  { fill: mistyrose;}
+	100%  { fill: limegreen;}
+}
+
+@keyframes rainbow6 {
+	0%   { fill: lemonchiffon;}
+	25%  { fill: cyan;}
+	50%  { fill: orange;}
+	75%  { fill: #3F7FEF;}
+	100%  { fill: #FFC96A;}
+}
+
+@-webkit-keyframes rainbow6 {
+	0%   { fill: lemonchiffon;}
+	25%  { fill: cyan;}
+	50%  { fill: orange;}
+	75%  { fill: #3F7FEF;}
+	100%  { fill: #FFC96A;}
+}
+
+@keyframes rainbow7 {
+	0%   { fill: #FFC96A;}
+	25%  { fill: mediumorchid;}
+	50%  { fill: #54FFCD;}
+	75%  { fill: #E97B00;}
+	100%  { fill: hotpink;}
+}
+
+@-webkit-keyframes rainbow7 {
+	0%   { fill: #FFC96A;}
+	25%  { fill: mediumorchid;}
+	50%  { fill: #54FFCD;}
+	75%  { fill: #E97B00;}
+	100%  { fill: hotpink;}
+}
+
 
