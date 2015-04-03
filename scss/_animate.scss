@@ -60,8 +60,27 @@
 			-webkit-animation: rainbow7 2s step-end infinite;			
 		}
 
+		.day1{
+			animation: shake 3s linear infinite;
+			-webkit-animation: shake 3s linear infinite;
+		}
+		.day2{
+			animation: shake2 3s linear infinite;
+			-webkit-animation: shake2 3s linear infinite;
+		}
+
+		.day3{
+			animation: shake3 3s linear infinite;
+			-webkit-animation: shake3 3s linear infinite;
+		}
+
+		.day4{
+			animation: shake4 3s linear infinite;
+			-webkit-animation: shake4 3s linear infinite;
+		}
 	}
 }
+
 
 // animate 100 // 
 @keyframes rainbow {
@@ -86,6 +105,179 @@
 	50%  { fill: slateblue;}
 	75%  { fill: #FFC96A;}
 	100%  { fill: #E583D0;}
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+    transform: rotate(0);
+  } 
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(0, -.5px, 0);
+    transform: rotate(-.2deg);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(0, .5px, 0);
+     transform: rotate(.2deg);
+  }
+}
+
+@-webkit-keyframes shake {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+    transform: rotate(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(0, -.5px, 0);
+    transform: rotate(-.2deg);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(0, .5px, 0);
+    transform: rotate(.2deg);
+  }
+}
+
+@keyframes shake2 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+    transform: rotate(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(0, .4px, 0);
+    transform: rotate(.1deg);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(0, -.4px, 0);
+     transform: rotate(-.1deg);
+  }
+}
+
+@-webkit-keyframes shake2 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+      transform: rotate(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(0, .4px, 0);
+     transform: rotate(.1deg);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(0, -.4px, 0);
+     transform: rotate(-.1deg);
+  }
+}
+
+@keyframes shake3 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+    transform: rotate(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(0, .5px, 0);
+    transform: rotate(.2deg);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(0, -.5px, 0);
+    transform: rotate(-.2deg);
+  }
+}
+
+@-webkit-keyframes shake3 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+    transform: rotate(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(0, .5px, 0);
+    transform: rotate(.2deg);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(0, -.5px, 0);
+    transform: rotate(-.2deg);
+  }
+}
+
+@keyframes shake4 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+    transform: rotate(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(0, .2px, 0);
+    transform: rotate(.15deg);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(0, -.2px, 0);
+    transform: rotate(-.15deg);
+  }
+}
+
+@-webkit-keyframes shake4 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+    transform: rotate(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(0, .2px, 0);
+    transform: rotate(.15deg);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(0, -.2px, 0);
+    transform: rotate(-.15deg);
+  }
+}
+
+.enter{
+	animation: enter 1s linear;
+	animation-fill-mode: forwards;
+	-webkit-animation: enter 1s linear;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes enter{
+	 0%{ 
+	   top: -100%;
+	   left: 100%;
+	 }
+	 50%{
+	   top: -50%;
+	   left:50%;
+	 }
+	 100%{
+	   top: 0;
+	   left: 0;
+	 }
+}
+
+@-webkit-keyframes enter{
+	 0%{ 
+	   top: -100%;
+	   left: 100%;
+	 }
+	 50%{
+	   top: -50%;
+	   left:50%;
+	 }
+	 100%{
+	   top: 0;
+	   left: 0;
+	 }
 }
 
 @-webkit-keyframes rainbow2 {
@@ -175,5 +367,4 @@
 	75%  { fill: #E97B00;}
 	100%  { fill: hotpink;}
 }
-
 

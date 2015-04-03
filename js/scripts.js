@@ -1,3 +1,5 @@
 $(function(){
-	//your jQuery here
+	$('.aboutSvg').on('click', function(){
+		$('.aboutInfo').addClass('enter');
+	})
 });
