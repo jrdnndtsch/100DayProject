@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    <p>&copy; Vivien & Jordan <?php echo date('Y'); ?></p>
+    <p>Made with <span>&hearts;</span> by Vivien &amp; Jordan &copy; <?php echo date('Y'); ?></p>
   </div>
 </footer>
 

@@ -18,7 +18,7 @@
 
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-			<section class="entry-content clearfix">
+
 				<div class="featImg">
 					<?php echo get_the_post_thumbnail($post_id, 'bigSquare'); ?>
 				</div> <!-- end .featImg -->
@@ -36,7 +36,7 @@
           'before' => '<div class="page-link"> Pages:',
           'after' => '</div>'
         )); ?>
-			</section><!-- .entry-content -->
+
 
 		</article><!-- #post-## -->
 

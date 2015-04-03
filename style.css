@@ -137,7 +137,7 @@ body {
     text-decoration: none;
     color: #333; }
     body a:hover {
-      color: hotpink; }
+      color: #7F8EFF; }
   body img {
     max-width: 100%;
     height: auto; }
@@ -146,26 +146,36 @@ body {
   max-width: 80%;
   margin: 0 auto; }
 
-header .container {
-  text-align: center; }
-header .headerImg {
-  width: 50%;
-  height: auto; }
-header p {
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  font-family: 'Amatic SC';
-  margin: 0;
-  color: #AAA;
-  letter-spacing: 0.1rem; }
-header a {
-  color: pink; }
-header a:hover {
-  color: deepskyblue; }
+header {
+  margin-bottom: 10%;
+  margin-top: 5%; }
+  header .container {
+    text-align: center; }
+  header .headerImg {
+    width: 50%;
+    height: auto; }
+  header p {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: 'Amatic SC';
+    margin: 0;
+    color: #AAA;
+    letter-spacing: 0.1rem; }
+  header a {
+    color: pink; }
+  header a:hover {
+    color: #7F8EFF; }
 
-footer .container {
-  max-width: 80%;
-  margin: 0 auto; }
+footer {
+  text-align: center; }
+  footer .container {
+    max-width: 80%;
+    margin: 0 auto; }
+  footer p {
+    color: #AAA; }
+    footer p span {
+      color: #54FFCD;
+      font-size: 0.9rem; }
 
 .post {
   margin: 50px 0; }
@@ -186,15 +196,32 @@ footer .container {
     letter-spacing: 1.2px;
     font-weight: 300; }
 
-.entry-content .featImg {
-  width: 35%;
-  float: left; }
-.entry-content .featCopy {
-  width: 63%;
-  float: left;
-  margin-left: 2%; }
-  .entry-content .featCopy .readMore {
-    font-size: 1rem;
-    letter-spacing: 1.5px;
-    font-family: 'Merriweather' monospace;
-    margin: 10px 0; }
+.content {
+  margin-bottom: 5%;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  flex-direction: row; }
+  .content .post {
+    border: 3px solid #CCC;
+    background: white;
+    padding: 1%;
+    margin: 1%; }
+    .content .post:hover {
+      border: 3px solid #54FFCD;
+      box-shadow: 7px 7px #ED96D7; }
+    .content .post h2 {
+      margin: 0; }
+    .content .post .featImg {
+      max-width: 100%;
+      height: auto; }
+    .content .post .featCopy {
+      margin-left: 1%; }
+      .content .post .featCopy p {
+        font-size: 1rem;
+        color: #CCC;
+        margin: 0; }
+      .content .post .featCopy .readMore {
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        font-family: 'Merriweather' serif; }
