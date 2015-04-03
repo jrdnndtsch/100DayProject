@@ -17,26 +17,26 @@
 <?php while ( have_posts() ) : the_post(); ?>
 
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<a href="<?php echo get_permalink(); ?>">
 
 
-				<div class="featImg">
-					<?php echo get_the_post_thumbnail($post_id, 'bigSquare'); ?>
-				</div> <!-- end .featImg -->
-				<div class="featCopy">	
-						<h2 class="entry-title">
-				        <a href="<?php the_permalink(); ?>" title="Permalink to: <?php esc_attr(the_title_attribute()); ?>" rel="bookmark">
-				          <?php the_title(); ?>
-				        </a>
-				      </h2>
-					<p><?php echo the_field('short_desc') ?></p>
-					<a href="<?php echo get_permalink(); ?>" class="readMore">read more &#8702</a>
-				</div> <!-- end .featCopy -->
-				
-				<?php wp_link_pages( array(
-          'before' => '<div class="page-link"> Pages:',
-          'after' => '</div>'
-        )); ?>
+					<div class="featImg">
+						<?php echo get_the_post_thumbnail($post_id, 'bigSquare'); ?>
+					</div> <!-- end .featImg -->
+					<div class="featCopy">	
+							<h2 class="entry-title">
+					          <?php the_title(); ?>
+					      </h2>
+						<p><?php echo the_field('short_desc') ?></p>
+						<p class="readMore">read more &#8702</p>
+					</div> <!-- end .featCopy -->
+					
+					<?php wp_link_pages( array(
+	          'before' => '<div class="page-link"> Pages:',
+	          'after' => '</div>'
+	        )); ?>
 
+			</a>
 
 		</article><!-- #post-## -->
 

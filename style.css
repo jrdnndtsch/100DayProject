@@ -215,6 +215,10 @@ footer {
     .content .post:hover {
       border: 3px solid #54FFCD;
       box-shadow: 7px 7px #ED96D7; }
+      .content .post:hover .readMore {
+        color: #7F8EFF; }
+      .content .post:hover .entry-title {
+        color: #7F8EFF; }
     .content .post h2 {
       margin: 0 0 1% 0; }
     .content .post .featImg {
