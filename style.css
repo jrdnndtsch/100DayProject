@@ -131,6 +131,68 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.headerImg .st0 {
+  fill: #7F8EFF; }
+.headerImg .st1 {
+  fill: #E583D0; }
+.headerImg .st2 {
+  fill: #E97B00; }
+.headerImg .st3 {
+  fill: #4F4F4F; }
+.headerImg .st4 {
+  fill: #ED96D7; }
+.headerImg .st5 {
+  fill: #54FFCD; }
+.headerImg .st6 {
+  fill: #BFBFBF; }
+.headerImg .st7 {
+  fill: #F789D5; }
+.headerImg .st8 {
+  fill: #FCC3EA; }
+.headerImg .st9 {
+  fill: none;
+  stroke: #000000;
+  stroke-miterlimit: 10; }
+.headerImg .st10 {
+  fill: #FFC96A; }
+.headerImg .st11 {
+  fill: #FFCFEE; }
+.headerImg .st12 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10; }
+.headerImg .st13 {
+  fill: none; }
+.headerImg .st14 {
+  fill: #6AF8FF; }
+.headerImg .st15 {
+  fill: #3F7FEF; }
+.headerImg .st16 {
+  fill: #A5A5A5; }
+.headerImg .st17 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10; }
+.headerImg:hover .st0 {
+  animation: colorPulse .5s linear infinite;
+  -webkit-animation: colorPulse .5s linear infinite; }
+
+@keyframes colorPulse {
+  from {
+    fill: red; }
+
+  to {
+    fill: blue; } }
+
+@-webkit-keyframes colorPulse {
+  from {
+    fill: red; }
+
+  to {
+    fill: blue; } }
+
 body {
   font-size: 10px; }
   body a {
