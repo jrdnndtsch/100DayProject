@@ -19,6 +19,7 @@
 	.st16{fill:#A5A5A5;}
 	.st17{fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
 
+
 	.internet{fill:#54FFCD;}
 	.internet2{fill:#F789D5;}
 	.day{fill:#7F8EFF;}
@@ -59,11 +60,7 @@
 		.st5 {
 			animation: rainbow7 2s step-end infinite;
 			-webkit-animation: rainbow7 2s step-end infinite;			
-
-	.day{
-		fill: #7F8EFF;
-	}
-	&:hover{
+		}	
 		
 		.day1{
 			animation: shake 3s linear infinite;
@@ -111,7 +108,7 @@
 	50%  { fill: slateblue;}
 	75%  { fill: #FFC96A;}
 	100%  { fill: #E583D0;}
-
+}
 
 @keyframes shake {
   0%, 100% {
