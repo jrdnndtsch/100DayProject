@@ -23,7 +23,7 @@
       <img class="headerImg" src="<?php echo get_bloginfo('template_directory');?>/images/logo_con1.svg" alt="">
     </a>
     <p>a project crafted &amp; curated by jordan deutsch &amp; vivien ilett</p>
-    <p>inspired by <a href="https://thegreatdiscontent.com/100days" target="blank">the great discontent / 100 days</a></p>
+    <p>inspired by <a href="https://thegreatdiscontent.com/100days" target="_">the great discontent / 100 days</a></p>
   </div> <!-- /.container -->
 </header><!--/.header-->
 

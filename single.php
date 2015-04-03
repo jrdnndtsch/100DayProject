@@ -3,17 +3,14 @@
 <div class="main">
   <div class="container">
 
-    <div class="content">
+    <div class="contentSingle">
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
           <h1 class="entry-title"><?php the_title(); ?></h1>
 
           <div class="entry-meta">
-            <?php 
-            echo esc_attr();
-            echo get_the_date(); 
-            ?>
+            <p><?php echo esc_attr(); echo get_the_date(); ?></p>
           </div><!-- .entry-meta -->
 
           <div class="entry-content">
@@ -29,8 +26,9 @@
           </div><!-- .entry-utility -->
         </div><!-- #post-## -->
 
-        <div id="nav-below" class="navigation">
-          <p class="nav-previous"><?php previous_post_link('%link', '&larr; %title'); ?></p>
+        <div id="nav-below" class="navigation clearfix">
+          <p class="nav-previous"><?php previous_post_link('%link', '&#8701; %title'); ?></p>
+          <p class="nav-next"><?php next_post_link('%link', '%title &#8702;') ?></p>
          
         </div><!-- #nav-below -->
 
