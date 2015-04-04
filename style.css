@@ -838,3 +838,7 @@ footer {
       float: right; }
     .contentSingle .navigation .nav-previous {
       float: left; }
+
+@media (max-width: 640px) {
+  .contentSingle {
+    max-width: 85%; } }
