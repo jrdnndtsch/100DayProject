@@ -623,20 +623,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   to {
     transform: translate(-2px, -2px); } }
 
-@keyframes draw {
-  from {
-    stroke-dashoffset: 500px; }
-
-  to {
-    stroke-dashoffset: 0px; } }
-
-@-webkit-keyframes draw {
-  from {
-    stroke-dashoffset: 500px; }
-
-  to {
-    stroke-dashoffset: 0px; } }
-
 body {
   font-size: 10px; }
   body a {
