@@ -291,9 +291,9 @@
 }
 
 .enter{
-	animation: enter 0.2s linear;
+	animation: enter 0.5s linear;
 	animation-fill-mode: forwards;
-	-webkit-animation: enter 0.2s linear;
+	-webkit-animation: enter 0.5s linear;
 	-webkit-animation-fill-mode: forwards;
 }
 
@@ -324,6 +324,42 @@
 	 100%{
 	   top: 0;
 	   left: 0;
+	 }
+}
+.exit{
+	animation: exit 0.5s linear;
+	animation-fill-mode: forwards;
+	-webkit-animation: exit 0.5s linear;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes exit{
+	 0%{ 
+	   top: 0;
+	   left: 0;
+	 }
+	 50%{
+	   top: -50%;
+	   left:50%;
+	 }
+	 100%{
+	   top: -100%;
+	   left: 100%;
+	 }
+}
+
+@-webkit-keyframes exit{
+	 0%{ 
+	   top: 0;
+	   left: 0;
+	 }
+	 50%{
+	   top: -50%;
+	   left:50%;
+	 }
+	 100%{
+	   top: -100%;
+	   left: 100%;
 	 }
 }
 
