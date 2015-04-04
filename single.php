@@ -13,6 +13,10 @@
             <p><?php echo esc_attr(); echo get_the_date(); ?></p>
           </div><!-- .entry-meta -->
 
+          <p class="desc"><?php echo the_field('short_desc') ?></p>
+
+          <?php echo get_the_post_thumbnail($post_id, 'bigSquare'); ?>
+
           <div class="entry-content">
             <?php the_content(); ?>
             <?php wp_link_pages(array(

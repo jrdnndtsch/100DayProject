@@ -762,8 +762,8 @@ footer {
     .content .post .featCopy {
       margin-left: 1%; }
       .content .post .featCopy p {
-        font-size: 0.8rem;
-        color: #CCC;
+        font-size: 0.7rem;
+        color: #AAA;
         margin: 0; }
       .content .post .featCopy .readMore {
         position: absolute;
@@ -775,8 +775,20 @@ footer {
 .contentSingle {
   max-width: 70%;
   margin: 0 auto; }
+  .contentSingle h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: #7F8EFF; }
+  .contentSingle p.desc {
+    font-size: 0.9rem;
+    color: #AAA; }
   .contentSingle .entry-meta p {
-    font-size: 14px; }
+    font-size: 0.9rem;
+    margin: 0;
+    color: #7F8EFF; }
+  .contentSingle .entry-content p {
+    font-size: 1rem;
+    line-height: 1.7rem; }
   .contentSingle .navigation {
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
