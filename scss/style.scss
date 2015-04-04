@@ -10,14 +10,14 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 
-@mixin title-font{
+@mixin title-font {
 	font-family: 'Amatic SC', monospace;
 	font-size: 3rem;
 	letter-spacing: 2px;
 	font-weight: normal;
 } 
 
-@mixin body-font{
+@mixin body-font {
 font-family: 'Merriweather', serif;
 font-size: 1.5rem;
 letter-spacing: 1.2px;
@@ -39,46 +39,62 @@ body {
 	}
 }
 
- .main{
+ .main {
 
- 	.container{
+ 	.container {
  		max-width: 80%;
  		margin: 0 auto;
  	}
  }
 
- .aboutInfo{
+ .aboutInfo {
    width:100%;
    height: 100vh;
    z-index: 100;
-   background: cyan;
+   background: #7F8EFF;
    position: absolute;
    top:-100%; 
    left:100%;
-   .close{
+
+   .close {
    		float:right;
-   		font-size: 60px;
-   		color: black;
+   		font-size: 40px;
+   		color: white;
    		margin: 2% 5%;
    }
  }
 
- .about{
+ .about {
  	width: 100%;
- 	.aboutSvg{
+
+ 	.aboutSvg {
  		float: right;
- 		width: 50px;
+ 		width: 40px;
  		margin:2%;
  		cursor: pointer;
+ 		.about1 {
+ 			fill: white;
+ 		}
+ 		circle {
+ 			fill: #F789D5;
+ 			transition: 0.3s all;
+ 		}
  	}
 
+ 	.aboutSvg:hover {
+
+ 		circle {
+ 			fill: #54FFCD;
+ 		}
+ 	}
  }
 
 
- header{
+ header {
  	margin-bottom: 10%;
  	margin-top: 0;
- 	.container{
+
+ 	.container {
  		text-align: center;
  	}
  	.headerImg {
@@ -101,31 +117,32 @@ body {
 	}
  }
 
- footer{
+ footer {
  	text-align: center;
- 	.container{
+
+ 	.container {
  		max-width: 80%;
  		margin: 0 auto;
  	}
  	p {
  		color: #AAA;
- 		span{
+ 		span {
  			color: #54FFCD;
  			font-size: 0.9rem;
  		}
  	}
  }
 
- .post{
+ .post {
  	margin: 50px 0;
- 	h1{
+ 	h1 {
  		@include title-font;
  	}
- 	h2{
+ 	h2 {
  		@include title-font;
  		margin: 20px 0; 
  	}
- 	p{
+ 	p {
  		@include body-font;
  	}
  }
@@ -151,10 +168,11 @@ body {
 		&:hover {
 			border: 3px solid #54FFCD;
 			box-shadow: 7px 7px #ED96D7;
-			.readMore{
+
+			.readMore {
 				color: #7F8EFF;
 			}
-			.entry-title{
+			.entry-title {
 				color: #7F8EFF;
 			}
 		}
@@ -171,8 +189,8 @@ body {
 			margin-left: 1%;
 
 			p {
-				font-size: 0.8rem;
-				color: #CCC;
+				font-size: 0.7rem;
+				color: #AAA;
 				margin: 0;
 			}
 
@@ -187,24 +205,48 @@ body {
 	}
 }
 
-.contentSingle{
+.contentSingle {
+
 	max-width: 70%;
 	margin: 0 auto;
-	.entry-meta{
-		p{
-			font-size: 14px;
+
+	h1 {
+		font-size: 4rem;
+		margin: 0;
+		color: #7F8EFF;
+	}
+
+	p.desc {
+		font-size: 0.9rem;
+		color: #AAA;
+	}
+
+	.entry-meta {
+		p {
+			font-size: 0.9rem;
+			margin: 0;
+			color: #7F8EFF;
 		}
 	}
-	.navigation{
+
+	.entry-content {
+		p {
+			font-size: 1rem;
+			line-height: 1.7rem;
+		}
+	}
+	.navigation {
 		@include body-font;
 		font-size: 14px;
-		.nav-next{
+
+		.nav-next {
 			float: right;	
 		}
-		.nav-previous{
+		.nav-previous {
 			float: left;
 		}
 	}
 }
+
 
 
