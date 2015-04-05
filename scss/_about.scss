@@ -24,7 +24,7 @@ font-weight: 300;
    left:100%;
 
    .aboutContainer {
-      width: 60%;
+      width: 50%;
       height: auto;
       margin: 0 auto;
       clear: both;
@@ -56,6 +56,7 @@ font-weight: 300;
             }
          }         
       }
+
 
       p.follow {
          font-size: 1.1rem;
@@ -93,7 +94,7 @@ font-weight: 300;
          }
 
          img {
-            width: 70%;
+            width: 60%;
          }
       }
 
@@ -143,4 +144,39 @@ font-weight: 300;
  			fill: #54FFCD;
  		}
  	}
+ }
+
+ @media(max-width: 800px){
+    .aboutInfo{
+      .aboutContainer {
+         width: 70%;
+      }
+    }
+ }
+
+ @media(max-width: 500px){
+    .aboutInfo{
+      .aboutContainer {
+         width: 85%;
+      }
+    }
+ }
+
+ @media(max-width: 400px){
+    .aboutInfo{
+      .aboutContainer {
+         width: 100%;
+         h3.name{
+            font-size: 16px;
+         }
+         .jordan{
+            margin-left: 10%;
+            width: 40%;
+         }
+         .vivi{
+            margin-right: 10%;
+            width: 40%;
+         }
+      }
+    }
  }
