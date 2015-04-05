@@ -678,7 +678,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   top: -100%;
   left: 100%; }
   .aboutInfo .aboutContainer {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin: 0 auto;
     clear: both; }
@@ -731,7 +731,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       .aboutInfo .aboutContainer .jordan a.twitter:hover svg, .aboutInfo .aboutContainer .vivi a.twitter:hover svg {
         fill: #54FFCD; }
       .aboutInfo .aboutContainer .jordan img, .aboutInfo .aboutContainer .vivi img {
-        width: 60%; }
+        width: 70%; }
     .aboutInfo .aboutContainer .jordan {
       margin-left: 15%; }
     .aboutInfo .aboutContainer .vivi {
