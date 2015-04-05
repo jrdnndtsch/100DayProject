@@ -655,6 +655,20 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   to {
     transform: translate(-2px, -2px); } }
 
+@-webkit-keyframes fadeIn {
+
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+
+  100% {
+    opacity: 1; } }
+
+.fadeIn {
+  -webkit-animation: fadeIn 0.65s ease forwards;
+  animation: fadeIn 0.65s ease forwards; }
+
 body {
   font-size: 10px; }
   body a {
@@ -768,7 +782,8 @@ footer {
     margin: 1%;
     transition: 0.5s all;
     width: 23%;
-    height: auto; }
+    height: auto;
+    opacity: 0; }
     .content .post:hover {
       border: 3px solid #54FFCD;
       box-shadow: 7px 7px #ED96D7; }
@@ -788,9 +803,7 @@ footer {
         color: #AAA;
         margin: 10px 0; }
       .content .post .featCopy .readMore {
-        position: absolute;
         font-size: 0.6rem;
-        bottom: 3px;
         font-size: 0.8rem;
         letter-spacing: 1.5px;
         font-family: 'Merriweather' serif; }
