@@ -775,25 +775,12 @@ body {
   max-width: 80%;
   margin: 0 auto; }
 
-a.toTop {
-  bottom: 0;
+a.to-top {
+  bottom: 2%;
   right: 2%;
   position: fixed;
-  bottom: 100px;
-  right: 10px;
-  z-index: 10;
-  white-space: nowrap;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  transition: opacity .3s 0s, visibility 0s .3s; }
-
-.is-visible {
-  visibility: visible;
-  opacity: 1; }
-
-.fade-out {
-  opacity: .5; }
+  z-index: 90;
+  display: none; }
 
 header {
   margin-bottom: 10%;
