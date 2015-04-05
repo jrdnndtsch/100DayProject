@@ -1,0 +1,146 @@
+// ABOUT DROP-DOWN //
+
+@mixin title-font {
+   font-family: 'Amatic SC', monospace;
+   font-size: 3rem;
+   letter-spacing: 2px;
+   font-weight: normal;
+} 
+
+@mixin body-font {
+font-family: 'Merriweather', serif;
+font-size: 1.5rem;
+letter-spacing: 1.2px;
+font-weight: 300;
+}
+
+ .aboutInfo {
+   width:100%;
+   height: 100vh;
+   z-index: 100;
+   background: #7F8EFF;
+   position: absolute;
+   top:-100%; 
+   left:100%;
+
+   .aboutContainer {
+      width: 60%;
+      height: auto;
+      margin: 0 auto;
+      clear: both;
+
+      h2 {
+         @include title-font;
+         color: white;
+         margin: 0 0 4% 0;
+      }
+
+      h3.name {
+         @include title-font;
+         color: white;
+         font-size: 1.3rem;
+         margin: 1%;
+      }
+      
+      p {
+         @include body-font;
+         color: white;
+         font-size: 0.8rem;
+         text-transform: none;
+         line-height: 1.5rem;
+         width: 70%;
+         margin: 0 auto;
+         a {
+            &:hover {
+               color: #54FFCD;
+            }
+         }         
+      }
+
+      p.follow {
+         font-size: 1.1rem;
+         margin-top: 2%;
+         font-family: 'Amatic SC', sans-serif;
+
+         &:hover {
+            color: #54FFCD; 
+         }
+      }
+
+      a.site {
+         color: white;
+         font-size: 2rem;
+
+         &:hover {
+            color: #54FFCD;
+         }
+      }
+
+      .jordan,.vivi {
+         float: left;
+         width: 35%;
+         margin-bottom: 5%;
+
+         a.twitter {
+            svg {
+               width: 20px;
+               fill: white;
+            }
+
+            &:hover svg {
+               fill: #54FFCD;
+            }
+         }
+
+         img {
+            width: 70%;
+         }
+      }
+
+      .jordan {
+         margin-left: 15%;
+      }
+      .vivi {
+         margin-right: 15%;
+      }
+   }
+
+   .close {
+		float:right;
+		font-size: 40px;
+		color: white;
+		margin: 1.5% 3%;
+		cursor: pointer;
+
+		&:hover{
+			color: #54FFCD;
+		}
+   }
+ }
+
+ .about {
+ 	width: 100%;
+
+ 	.aboutSvg {
+ 		float: right;
+ 		width: 40px;
+ 		margin:2%;
+ 		cursor: pointer;
+
+ 		.about1 {
+ 			fill: white;
+ 		}
+
+ 		circle {
+ 			fill: #F789D5;
+ 			transition: 0.3s all;
+ 		}
+ 	}
+
+ 	.aboutSvg:hover {
+
+ 		circle {
+ 			fill: #54FFCD;
+ 		}
+ 	}
+ }

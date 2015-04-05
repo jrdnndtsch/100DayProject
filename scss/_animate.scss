@@ -291,9 +291,9 @@
 }
 
 .enter{
-	animation: enter 0.5s linear;
+	animation: enter 0.2s linear;
 	animation-fill-mode: forwards;
-	-webkit-animation: enter 0.5s linear;
+	-webkit-animation: enter 0.2s linear;
 	-webkit-animation-fill-mode: forwards;
 }
 
@@ -327,9 +327,9 @@
 	 }
 }
 .exit{
-	animation: exit 0.5s linear;
+	animation: exit 0.2s linear;
 	animation-fill-mode: forwards;
-	-webkit-animation: exit 0.5s linear;
+	-webkit-animation: exit 0.2s linear;
 	-webkit-animation-fill-mode: forwards;
 }
 
@@ -465,15 +465,10 @@
 	to {transform: translate(-2px, -2px);}
 }
 
-
-
-
 @-webkit-keyframes fadeIn {
 	0% { }
 	100% { opacity: 1; }
 }
-
-
 
 @keyframes fadeIn {
 	0% { }

@@ -5,11 +5,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+// PARTIALS //
 
 @import 'animate';
+@import 'about';
 
 
-//FONTS
+// FONTS //
 
 @mixin title-font {
 	font-family: 'Amatic SC', monospace;
@@ -30,7 +32,7 @@ body {
 	a {
 		text-decoration: none;
 		color: #333;
-		&:hover{
+		&:hover {
 			color: #7F8EFF;
 		}
 	}
@@ -47,54 +49,33 @@ body {
  		margin: 0 auto;
  	}
  }
-//ABOUT DROP DOWN
- .aboutInfo {
-   width:100%;
-   height: 100vh;
-   z-index: 100;
-   background: #7F8EFF;
-   position: absolute;
-   top:-100%; 
-   left:100%;
 
-   .close {
-   		float:right;
-   		font-size: 40px;
-   		color: white;
-   		margin: 2% 5%;
-   		cursor: pointer;
-   		&:hover{
-   			color: #F789D5;
-   		}
-   }
- }
+// BACK TO TOP button //
 
- .about {
- 	width: 100%;
+a.toTop {
+	bottom: 0;
+	right: 2%;
+	position: fixed;
+	bottom: 100px;
+	right: 10px;
+	z-index: 10;
+	white-space: nowrap;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+}
 
- 	.aboutSvg {
- 		float: right;
- 		width: 40px;
- 		margin:2%;
- 		cursor: pointer;
- 		.about1 {
- 			fill: white;
- 		}
- 		circle {
- 			fill: #F789D5;
- 			transition: 0.3s all;
- 		}
- 	}
+.is-visible {
+	visibility: visible; 
+	opacity: 1;
+}
 
- 	.aboutSvg:hover {
+.fade-out {
+	opacity: .5;
+}
 
- 		circle {
- 			fill: #54FFCD;
- 		}
- 	}
- }
-
-//HEADER IMG
+// HEADER IMG //
 
  header {
  	margin-bottom: 10%;
@@ -123,7 +104,7 @@ body {
 	}
  }
 
- //FOOTER
+ // FOOTER //
 
  footer {
  	text-align: center;
@@ -141,7 +122,7 @@ body {
  	}
  }
 
- //DISPLAYED POSTS
+ // DISPLAYED POSTS //
 
  .post {
  	margin: 50px 0;
@@ -243,11 +224,11 @@ body {
 }
 
 @media(max-width: 480px){
-	header{
-		.headerImg{
+	header { 
+		.headerImg {
 			width: 85%;
 		}
-		p{
+		p {
 			font-size: 16px;
 		}
 	}
@@ -258,7 +239,8 @@ body {
 		}
 	}
 }
-//SINGLE POST PAGE
+// SINGLE POST PAGE //
+
 .contentSingle {
 
 	max-width: 70%;

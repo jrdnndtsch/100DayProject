@@ -21,6 +21,45 @@
 <div class="container">
   <div class="aboutInfo">
     <p class="close">&otimes;</p>
+    <div class="aboutContainer">
+      <h2>About Us</h2>
+
+      <div class="jordan">
+        <img src="<?php echo get_bloginfo('template_directory');?>/images/jordan.svg" alt="jordan avatar">
+        <h3 class="name">Jordan Deutsch</h3>
+        <a class="twitter" target="blank" href="http://twitter.com/jrdnndtsch">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+          <path d="M76.534,17.322c-2.691,1.191-5.585,1.996-8.618,2.36c3.103-1.857,5.483-4.797,6.598-8.297
+            c-2.901,1.719-6.108,2.964-9.533,3.635c-2.729-2.913-6.631-4.736-10.949-4.736c-8.282,0-14.998,6.719-14.998,15.002
+            c0,1.178,0.125,2.323,0.385,3.417c-12.466-0.625-23.52-6.594-30.927-15.677C7.2,15.25,6.462,17.825,6.462,20.574
+            c0,5.199,2.648,9.792,6.672,12.487c-2.456-0.075-4.77-0.758-6.799-1.874v0.184c0,7.274,5.173,13.34,12.04,14.715
+            c-1.257,0.353-2.583,0.527-3.952,0.527c-0.97,0-1.909-0.092-2.821-0.268c1.906,5.961,7.445,10.299,14.013,10.413
+            c-5.136,4.028-11.607,6.426-18.633,6.426c-1.212,0-2.407-0.066-3.581-0.206c6.64,4.251,14.529,6.736,22.997,6.736
+            c27.604,0,42.691-22.858,42.691-42.686c0-0.653-0.012-1.303-0.042-1.944C71.98,22.972,74.53,20.328,76.534,17.322"/>
+          </svg>
+        </a>
+        <a target="blank" class="site" href="http://jordandeutsch.com">&#9786;</a>
+      </div><!-- /.jordan -->
+      <div class="vivi">
+        <img src="<?php echo get_bloginfo('template_directory');?>/images/vivi.svg" alt="vivi avatar">
+        <h3 class="name">Vivien Ilett</h3>
+        <a class="twitter" target="blank" href="http://twitter.com/vivienilett">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+          <path d="M76.534,17.322c-2.691,1.191-5.585,1.996-8.618,2.36c3.103-1.857,5.483-4.797,6.598-8.297
+            c-2.901,1.719-6.108,2.964-9.533,3.635c-2.729-2.913-6.631-4.736-10.949-4.736c-8.282,0-14.998,6.719-14.998,15.002
+            c0,1.178,0.125,2.323,0.385,3.417c-12.466-0.625-23.52-6.594-30.927-15.677C7.2,15.25,6.462,17.825,6.462,20.574
+            c0,5.199,2.648,9.792,6.672,12.487c-2.456-0.075-4.77-0.758-6.799-1.874v0.184c0,7.274,5.173,13.34,12.04,14.715
+            c-1.257,0.353-2.583,0.527-3.952,0.527c-0.97,0-1.909-0.092-2.821-0.268c1.906,5.961,7.445,10.299,14.013,10.413
+            c-5.136,4.028-11.607,6.426-18.633,6.426c-1.212,0-2.407-0.066-3.581-0.206c6.64,4.251,14.529,6.736,22.997,6.736
+            c27.604,0,42.691-22.858,42.691-42.686c0-0.653-0.012-1.303-0.042-1.944C71.98,22.972,74.53,20.328,76.534,17.322"/>
+          </svg>
+        </a>
+        <a target="blank" class="site" href="http://vivienilett.com">&#9786;</a>
+      </div><!-- /.vivi -->
+      <p>Hello there, welcome to 100 Days of the Internet! We are two front-end developer friends from Toronto, Canada and we aspire to always build nice things for the web. This blog is a side project inspired by <a target="blank" href="https://thegreatdiscontent.com/100days">The Great Discontent</a> to log our work. Watch this space to see what we create :)</p>
+      <a target="blank" href="http://instagram.com/vivienandjordan">
+      <p class="follow">Follow our Instagram</p></a>
+    </div><!-- /.aboutContainer -->
   </div>
   <div class="about clearfix">
     <svg class ="aboutSvg" title="About the authors" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

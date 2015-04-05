@@ -7,8 +7,8 @@
     		<?php get_template_part( 'loop', 'index' );	?>
     </div> <!--/.content -->
 
-
   </div> <!-- /.container -->
+	  <a class="toTop" href="#"><img src="<?php echo get_bloginfo('template_directory');?>/images/toTop.svg" alt=""></a>
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>
