@@ -175,6 +175,7 @@ body {
 		transition: 0.5s all;
 		width: 23%;	
 		height: auto;
+		opacity: 0;
 
 		&:hover {
 			border: 3px solid #54FFCD;
@@ -203,15 +204,16 @@ body {
 				font-size: 0.7rem;
 				color: #AAA;
 				margin: 10px 0;
+				position: relative;
 			}
 
 			.readMore {
-				position: absolute;
 				font-size: 0.6rem;
-				bottom: 3px;
 				font-size: 0.8rem;
 				letter-spacing: 1.5px;
 				font-family:'Merriweather' serif;
+				position: absolute;
+				bottom: -2%;
 			}
 	 	}
 	}
