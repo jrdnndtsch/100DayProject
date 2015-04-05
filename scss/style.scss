@@ -289,5 +289,16 @@ a.toTop {
 		max-width: 85%;
 	}
 }
-
+pre{
+	background: rgba(0,0,0,0.1);
+}
+pre, code{
+	font-size: 1rem;
+	font-family: 'Courier New', monospace;
+	font-weight: 200;
+	padding: 20px;
+	overflow-x: auto;
+	overflow-y: auto;
+	min-width: 600px;
+}
 

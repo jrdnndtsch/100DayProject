@@ -678,7 +678,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   top: -100%;
   left: 100%; }
   .aboutInfo .aboutContainer {
-    width: 60%;
+    width: 50%;
     height: auto;
     margin: 0 auto;
     clear: both; }
@@ -731,7 +731,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       .aboutInfo .aboutContainer .jordan a.twitter:hover svg, .aboutInfo .aboutContainer .vivi a.twitter:hover svg {
         fill: #54FFCD; }
       .aboutInfo .aboutContainer .jordan img, .aboutInfo .aboutContainer .vivi img {
-        width: 70%; }
+        width: 60%; }
     .aboutInfo .aboutContainer .jordan {
       margin-left: 15%; }
     .aboutInfo .aboutContainer .vivi {
@@ -759,6 +759,26 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       transition: 0.3s all; }
   .about .aboutSvg:hover circle {
     fill: #54FFCD; }
+
+@media (max-width: 800px) {
+  .aboutInfo .aboutContainer {
+    width: 70%; } }
+
+@media (max-width: 500px) {
+  .aboutInfo .aboutContainer {
+    width: 85%; } }
+
+@media (max-width: 400px) {
+  .aboutInfo .aboutContainer {
+    width: 100%; }
+    .aboutInfo .aboutContainer h3.name {
+      font-size: 16px; }
+    .aboutInfo .aboutContainer .jordan {
+      margin-left: 10%;
+      width: 40%; }
+    .aboutInfo .aboutContainer .vivi {
+      margin-right: 10%;
+      width: 40%; } }
 
 body {
   font-size: 10px; }
@@ -939,3 +959,15 @@ footer {
 @media (max-width: 640px) {
   .contentSingle {
     max-width: 85%; } }
+
+pre {
+  background: rgba(0, 0, 0, 0.1); }
+
+pre, code {
+  font-size: 1rem;
+  font-family: 'Courier New', monospace;
+  font-weight: 200;
+  padding: 20px;
+  overflow-x: auto;
+  overflow-y: auto;
+  min-width: 600px; }
