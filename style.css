@@ -449,7 +449,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     left: 50%; }
 
   100% {
-    top: -100%;
+    top: -110%;
     left: 100%; } }
 
 @-webkit-keyframes exit {
@@ -462,7 +462,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     left: 50%; }
 
   100% {
-    top: -100%;
+    top: -110%;
     left: 100%; } }
 
 @-webkit-keyframes rainbow2 {
