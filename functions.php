@@ -76,33 +76,6 @@ function hackeryou_scripts() {
 add_action( 'wp_enqueue_scripts', 'hackeryou_scripts' );
 
 
-/* Custom Title Tags */
-
-function hackeryou_wp_title( $title, $sep ) {
-	global $paged, $page;
-
-	if ( is_feed() ) {
-		return $title;
-	}
-
-	// Add the site name.
-	$title .= get_bloginfo( 'name', 'display' );
-
-	// Add the site description for the home/front page.
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) ) {
-		$title = "$title $sep $site_description";
-	}
-
-	// Add a page number if necessary.
-	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
-		$title = "$title $sep " . sprintf( __( 'Page %s', 'hackeryou' ), max( $paged, $page ) );
-	}
-
-	return $title;
-}
-add_filter( 'wp_title', 'hackeryou_wp_title', 10, 2 );
-
 /*
   Get our wp_nav_menu() fallback, wp_page_menu(), to show a home link.
  */
@@ -112,21 +85,6 @@ function hackeryou_page_menu_args( $args ) {
 }
 add_filter( 'wp_page_menu_args', 'hackeryou_page_menu_args' );
 
-
-/*
- * Sets the post excerpt length to 40 characters.
- */
-function hackeryou_excerpt_length( $length ) {
-	return 40;
-}
-add_filter( 'excerpt_length', 'hackeryou_excerpt_length' );
-
-/*
- * Returns a "Continue Reading" link for excerpts
- */
-function hackeryou_continue_reading_link() {
-	return ' <a href="'. get_permalink() . '">Continue reading <span class="meta-nav">&rarr;</span></a>';
-}
 
 /**
  * Replaces "[...]" (appended to automatically generated excerpts) with an ellipsis and hackeryou_continue_reading_link().
