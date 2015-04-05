@@ -204,6 +204,7 @@ body {
 				font-size: 0.7rem;
 				color: #AAA;
 				margin: 10px 0;
+				position: relative;
 			}
 
 			.readMore {
@@ -211,6 +212,8 @@ body {
 				font-size: 0.8rem;
 				letter-spacing: 1.5px;
 				font-family:'Merriweather' serif;
+				position: absolute;
+				bottom: -2%;
 			}
 	 	}
 	}
