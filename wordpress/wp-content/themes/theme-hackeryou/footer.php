@@ -1,8 +1,10 @@
 <footer>
   <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+    <p>Made with <span>&hearts;</span> by Vivien &amp; Jordan &copy; <?php echo date('Y'); ?></p>
   </div>
 </footer>
+
+<a class="to-top" href="#0"><img src="<?php echo get_bloginfo('template_directory');?>/images/toTop.svg" alt=""></a>
 
 <script>
 /* Google Analytics! */
@@ -13,5 +15,6 @@
 </script>
 
 <?php wp_footer(); ?>
+	
 </body>
 </html>
