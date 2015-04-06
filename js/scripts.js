@@ -3,9 +3,12 @@ $(function(){
 	// OPEN ABOUT SECTION ON CLICK //
 	$('.aboutSvg').on('click', function(){
 		$('.aboutInfo').removeClass('exit').addClass('enter');
+		$('.aboutContainer').fadeIn(800);
 	});
+
 	$('.close').on('click', function(){
 		$('.aboutInfo').removeClass('enter').addClass('exit');
+		$('.aboutContainer').fadeOut(800);
 	});
 
 
@@ -32,7 +35,7 @@ $(function(){
 	// BUTTON - SCROLL TO TOP //
 	$('.to-top').click(function(e){
 		e.preventDefault();
-		$('html, body').animate({scrollTop : 0},600);
+		$('html, body').animate({scrollTop : 0},500);
 		return false;
 	});
 

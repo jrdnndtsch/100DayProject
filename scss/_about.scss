@@ -14,6 +14,10 @@ letter-spacing: 1.2px;
 font-weight: 300;
 }
 
+.view {
+   opacity: 1;
+}
+
  .aboutInfo {
    width:100%;
    height: 100vh;
@@ -28,6 +32,10 @@ font-weight: 300;
       height: auto;
       margin: 0 auto;
       clear: both;
+      z-index: 101;
+      display: none;
+      // transition: 1s all;
+      // -webkit-transition: 1s all;
 
       h2 {
          @include title-font;
